@@ -88,7 +88,7 @@ nav .logo{
 /* cta jumbo */
 .jumbo{
   height: calc(100vh - 70px);
-  background-image: url("img/photo-1607068891828-f16297950a66.avif");
+  background-image: url("img/sfondo.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
