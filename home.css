@@ -166,6 +166,48 @@ nav .logo{
 }
 
 
+/* MILESTONE 3 Sections */
+
+/* Sections_2 */
+
+.main-section{
+  padding: 20px 0;
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  margin: 30px 20px 0 20px;
+  padding: 20px 30px;
+}
+
+.section .wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section .img img{
+  width: 400px;
+  height: 300px;
+}
+
+.section .txt{
+color: #000000;
+padding: 20px 80px;
+}
+
+.section_2 .wrapper{
+  flex-direction: row-reverse;
+}
+
+
 
 
 
