@@ -42,6 +42,7 @@ nav .logo{
   width: 70px;
 }
 
+
 .menu {
   /* border: 2px solid black; */
 }
@@ -211,16 +212,17 @@ padding: 20px 80px;
 
 /* <!-- MILESTONE 4  --> */
 
-h2{
-  color: black;
+.h2 a{
   text-decoration: none;
+  color: black;
 }
 
 .card-container{
-display: flex;
-justify-content: center;
-text-align: center;
-}
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
 
 .card {
   width: 300px;
@@ -243,17 +245,59 @@ text-align: center;
   margin-bottom: 10px;
 }
 
-.card-description {
-  font-size: 14px;
-  color: black;
+
+
+/* <!-- MILESTONE 5  --> */
+footer {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.elenco img{
+  margin: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+}
+
+
+/* footer .container .elenco{
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all ease 0.2s;
+  position: relative;
+} */
+
+
+
+footer .container .elenco a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 200;
 }
 
 
 
+footer .container .elenco a:hover{
+  text-decoration: underline;
+  opacity: 0.7;
+  text-decoration-color: rgb(255, 255, 255);
+}
 
 
 
-
-
-
-
+.copy-container {
+  background-color: #666;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
